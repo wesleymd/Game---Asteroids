@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BCEEF111888099D00B5AD03 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCEEF101888099D00B5AD03 /* Cocoa.framework */; };
+		2BCEEF1B1888099D00B5AD03 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BCEEF191888099D00B5AD03 /* InfoPlist.strings */; };
+		2BCEEF1D1888099D00B5AD03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCEEF1C1888099D00B5AD03 /* main.m */; };
+		2BCEEF211888099D00B5AD03 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2BCEEF1F1888099D00B5AD03 /* Credits.rtf */; };
+		2BCEEF241888099D00B5AD03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCEEF231888099D00B5AD03 /* AppDelegate.m */; };
+		2BCEEF271888099E00B5AD03 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BCEEF251888099E00B5AD03 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2BCEEF0D1888099D00B5AD03 /* Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BCEEF101888099D00B5AD03 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2BCEEF131888099D00B5AD03 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2BCEEF141888099D00B5AD03 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2BCEEF151888099D00B5AD03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2BCEEF181888099D00B5AD03 /* Game-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Game-Info.plist"; sourceTree = "<group>"; };
+		2BCEEF1A1888099D00B5AD03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2BCEEF1C1888099D00B5AD03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BCEEF1E1888099D00B5AD03 /* Game-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Game-Prefix.pch"; sourceTree = "<group>"; };
+		2BCEEF201888099D00B5AD03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2BCEEF221888099D00B5AD03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BCEEF231888099D00B5AD03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2BCEEF261888099E00B5AD03 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BCEEF0A1888099D00B5AD03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BCEEF111888099D00B5AD03 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BCEEF041888099D00B5AD03 = {
+			isa = PBXGroup;
+			children = (
+				2BCEEF161888099D00B5AD03 /* Game */,
+				2BCEEF0F1888099D00B5AD03 /* Frameworks */,
+				2BCEEF0E1888099D00B5AD03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BCEEF0E1888099D00B5AD03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BCEEF0D1888099D00B5AD03 /* Game.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BCEEF0F1888099D00B5AD03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BCEEF101888099D00B5AD03 /* Cocoa.framework */,
+				2BCEEF121888099D00B5AD03 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BCEEF121888099D00B5AD03 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BCEEF131888099D00B5AD03 /* AppKit.framework */,
+				2BCEEF141888099D00B5AD03 /* CoreData.framework */,
+				2BCEEF151888099D00B5AD03 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2BCEEF161888099D00B5AD03 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				2BCEEF221888099D00B5AD03 /* AppDelegate.h */,
+				2BCEEF231888099D00B5AD03 /* AppDelegate.m */,
+				2BCEEF251888099E00B5AD03 /* MainMenu.xib */,
+				2BCEEF171888099D00B5AD03 /* Supporting Files */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		2BCEEF171888099D00B5AD03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BCEEF181888099D00B5AD03 /* Game-Info.plist */,
+				2BCEEF191888099D00B5AD03 /* InfoPlist.strings */,
+				2BCEEF1C1888099D00B5AD03 /* main.m */,
+				2BCEEF1E1888099D00B5AD03 /* Game-Prefix.pch */,
+				2BCEEF1F1888099D00B5AD03 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BCEEF0C1888099D00B5AD03 /* Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BCEEF2A1888099E00B5AD03 /* Build configuration list for PBXNativeTarget "Game" */;
+			buildPhases = (
+				2BCEEF091888099D00B5AD03 /* Sources */,
+				2BCEEF0A1888099D00B5AD03 /* Frameworks */,
+				2BCEEF0B1888099D00B5AD03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Game;
+			productName = Game;
+			productReference = 2BCEEF0D1888099D00B5AD03 /* Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BCEEF051888099D00B5AD03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Wesley;
+			};
+			buildConfigurationList = 2BCEEF081888099D00B5AD03 /* Build configuration list for PBXProject "Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2BCEEF041888099D00B5AD03;
+			productRefGroup = 2BCEEF0E1888099D00B5AD03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BCEEF0C1888099D00B5AD03 /* Game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BCEEF0B1888099D00B5AD03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BCEEF1B1888099D00B5AD03 /* InfoPlist.strings in Resources */,
+				2BCEEF211888099D00B5AD03 /* Credits.rtf in Resources */,
+				2BCEEF271888099E00B5AD03 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BCEEF091888099D00B5AD03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BCEEF1D1888099D00B5AD03 /* main.m in Sources */,
+				2BCEEF241888099D00B5AD03 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2BCEEF191888099D00B5AD03 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BCEEF1A1888099D00B5AD03 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2BCEEF1F1888099D00B5AD03 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BCEEF201888099D00B5AD03 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		2BCEEF251888099E00B5AD03 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BCEEF261888099E00B5AD03 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BCEEF281888099E00B5AD03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2BCEEF291888099E00B5AD03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2BCEEF2B1888099E00B5AD03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Game/Game-Prefix.pch";
+				INFOPLIST_FILE = "Game/Game-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2BCEEF2C1888099E00B5AD03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Game/Game-Prefix.pch";
+				INFOPLIST_FILE = "Game/Game-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BCEEF081888099D00B5AD03 /* Build configuration list for PBXProject "Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BCEEF281888099E00B5AD03 /* Debug */,
+				2BCEEF291888099E00B5AD03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BCEEF2A1888099E00B5AD03 /* Build configuration list for PBXNativeTarget "Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BCEEF2B1888099E00B5AD03 /* Debug */,
+				2BCEEF2C1888099E00B5AD03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BCEEF051888099D00B5AD03 /* Project object */;
+}
